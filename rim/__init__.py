@@ -16,8 +16,6 @@ __version__ = '0.1.0'
 
 from .core import (
     Tensor,
-    Function,
-    Context,
     relu,
     sigmoid,
     tanh,
@@ -28,8 +26,6 @@ from .core import (
 
 __all__ = [
     'Tensor',
-    'Function',
-    'Context',
     'relu',
     'sigmoid',
     'tanh',
