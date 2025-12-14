@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# uv
+.uv/
+uv.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+
+# Data
+data/
+datasets/
+*.csv
+*.json
+*.txt
+!requirements*.txt
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
