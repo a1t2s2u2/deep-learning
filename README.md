@@ -43,8 +43,8 @@ deep-learning/
 │   ├── core/              # コア機能
 │   │   ├── __init__.py
 │   │   ├── tensor.py      # Tensor実装（多次元配列）
-│   │   ├── autograd.py    # 自動微分エンジン
 │   │   ├── function.py    # 演算の基底クラス
+│   │   ├── activations.py # 活性化関数・基本演算
 │   │   └── parameter.py   # パラメータ管理
 │   │
 │   ├── nn/                # ニューラルネットワーク
