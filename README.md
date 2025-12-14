@@ -42,8 +42,7 @@ deep-learning/
 │   │
 │   ├── core/              # コア機能
 │   │   ├── __init__.py
-│   │   ├── tensor.py      # Tensor実装（多次元配列）
-│   │   ├── function.py    # 演算の基底クラス
+│   │   ├── tensor.py      # Tensor実装（多次元配列・自動微分）
 │   │   ├── activations.py # 活性化関数・基本演算
 │   │   └── parameter.py   # パラメータ管理
 │   │
@@ -100,10 +99,12 @@ deep-learning/
 
 ## 実装ロードマップ
 
-### Phase 1: コア機能
-- [ ] Tensor実装（多次元配列操作）
-- [ ] 自動微分エンジン
-- [ ] 基本的な演算（加算、乗算、行列積など）
+### Phase 1: コア機能 ✅
+- [x] Tensor実装（多次元配列操作）
+- [x] 自動微分エンジン
+- [x] 基本的な演算（加算、乗算、行列積など）
+- [x] 活性化関数（ReLU, Sigmoid, Tanh, Softmax）
+- [x] 数学関数（exp, log）
 
 ### Phase 2: 基本的なNN
 - [ ] Module基底クラス
