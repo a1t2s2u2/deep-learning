@@ -1,7 +1,9 @@
 [project]
 name = "rim"
 version = "0.1.0"
-description = "A deep learning framework built from scratch using only Python standard library"
+description = "A deep learning framework built from scratch using NumPy"
 requires-python = ">=3.8"
 
-dependencies = []
+dependencies = [
+    "numpy>=1.20.0",
+]
