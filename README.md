@@ -161,16 +161,3 @@ for epoch in range(10):
     loss.backward()
     optimizer.step()
 ```
-
-### 動的計算グラフ
-PyTorchと同じく、動的に計算グラフを構築します。これにより柔軟なモデル定義が可能になります。
-
-## 参考資料
-
-- [ゼロから作るDeep Learning](https://www.oreilly.co.jp/books/9784873117584/)
-- [micrograd](https://github.com/karpathy/micrograd) by Andrej Karpathy
-- PyTorchのアーキテクチャ
-
-## ライセンス
-
-MIT License
