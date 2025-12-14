@@ -1,0 +1,7 @@
+[project]
+name = "rim"
+version = "0.1.0"
+description = "A deep learning framework built from scratch using only Python standard library"
+requires-python = ">=3.8"
+
+dependencies = []
