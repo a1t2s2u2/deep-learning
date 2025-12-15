@@ -115,10 +115,10 @@ deep-learning/
 - [x] 最適化器（SGD, Adam）
 
 ### Phase 3: CNN
-- [ ] Convolution層
-- [ ] Pooling層
-- [ ] BatchNormalization
-- [ ] Dropout
+- [x] Convolution層
+- [x] Pooling層
+- [x] BatchNormalization
+- [x] Dropout
 
 ### Phase 4: GAN
 - [ ] 基本的なGAN
