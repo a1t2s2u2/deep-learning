@@ -106,12 +106,13 @@ deep-learning/
 - [x] 活性化関数（ReLU, Sigmoid, Tanh, Softmax）
 - [x] 数学関数（exp, log）
 
-### Phase 2: 基本的なNN
-- [ ] Module基底クラス
-- [ ] Linear層（全結合層）
-- [ ] 活性化関数（ReLU, Sigmoid, Tanhなど）
-- [ ] 損失関数（MSE, Cross Entropy）
-- [ ] 最適化器（SGD, Adam）
+### Phase 2: 基本的なNN ✅
+- [x] Parameter クラス
+- [x] Module基底クラス
+- [x] Linear層（全結合層）
+- [x] 活性化関数モジュール（ReLU, Sigmoid, Tanh, Softmax）
+- [x] 損失関数（MSE, Cross Entropy）
+- [x] 最適化器（SGD, Adam）
 
 ### Phase 3: CNN
 - [ ] Convolution層

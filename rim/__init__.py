@@ -23,6 +23,7 @@ from .core import (
     log,
     softmax,
 )
+from .utils import Logger
 
 __all__ = [
     'Tensor',
@@ -32,4 +33,5 @@ __all__ = [
     'exp',
     'log',
     'softmax',
+    'Logger',
 ]
